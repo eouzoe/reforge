@@ -1,16 +1,12 @@
-# devenv
-/.devenv/
-
-# 本地參考資料（不推送）
-/upstream/
-/spike/
-/AGENTS.md
-
-# 依賴與建置產物
+# 建置與依賴
 node_modules/
 dist/
 .nx/
+coverage/
 *.tsbuildinfo
+
+# devenv
+/.devenv/
 
 # 暫存與環境
 *.log

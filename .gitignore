@@ -1,0 +1,19 @@
+# devenv
+/.devenv/
+
+# 本地參考資料（不推送）
+/upstream/
+/spike/
+/AGENTS.md
+
+# 依賴與建置產物
+node_modules/
+dist/
+.nx/
+*.tsbuildinfo
+
+# 暫存與環境
+*.log
+.env
+.env.*
+!.env.example
